@@ -3,13 +3,13 @@ const yargs = require("yargs");
 
 const notes = require("./notes");
 
-const argv = yargs.argv;
-console.log(argv)
-const command = process.argv[2];
+// const argv = yargs.argv;
+// console.log(argv)
+// const command = process.argv[2];
 // const command = argv._[0]; // isto kao prethodna linija ali sada koristimo yargs
 
-console.log("Command: ", command);
-console.log("Process argv: ", process.argv);
+// console.log("Command: ", command);
+// console.log("Process argv: ", process.argv);
 // console.log("Yargs: ", argv); // Uncomment kad dodjemo na yargs
 
 

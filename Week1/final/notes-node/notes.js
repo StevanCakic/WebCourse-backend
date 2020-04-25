@@ -55,7 +55,7 @@ function removeNote(title) {
     const filteredNotes = notes.filter(note => note.title !== title);
     saveNotes(filteredNotes);
 
-    return filteredNotes < notes;
+    return filteredNotes.length < notes.length;
 }
 
 function logNote(note) {
