@@ -35,14 +35,14 @@ app.use((req,res, next) => {
 // template engine prvo gleda u registar helpera ima li promjenljive sa zadatim imenom
 // nakon toga gleda da li je kroz render proslijedjena promjenljiva
 
-/*
+// Nesto kao globalna varijabla za sve stranice
 hbs.registerHelper("getCurrentYear", () => {
     return (new Date()).getFullYear();
-})*/
+})
 
-// 
-hbs.registerHelper("screamIt", (text) => {
+hbs.registerHelper("screamIt", (text, abc) => {
     console.log(text);
+    console.log(abc)
     return text.toUpperCase();
 })
 

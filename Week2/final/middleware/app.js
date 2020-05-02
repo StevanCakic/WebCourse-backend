@@ -44,7 +44,7 @@ app.use(requestTime);
 
 app.get("/", (req, res) => {
   console.log(req.requestTime);
-  res.send("Hello World!");
+  res.send("Hello World! <br> Time:" + req.requestTime);
 });
 
 app.get("/help", (req, res) => {
