@@ -19,5 +19,5 @@
 - Middleware 
 - Templating engine
 - Aplikacija
-- Heroku, SSH
+- Heroku
 
