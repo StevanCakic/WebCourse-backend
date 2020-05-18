@@ -1,0 +1,14 @@
+{
+  "name": "intro-to-mongodb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "test": ""
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.3.2"
+  }
+}
