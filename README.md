@@ -27,3 +27,9 @@
 - Scraping
 - Testiranje softvera
 - AsyncJS
+
+## Nedelja 4
+- MongoDB
+- Mongoose
+- REST API
+- Autentifikacija
