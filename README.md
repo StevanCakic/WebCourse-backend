@@ -21,3 +21,9 @@
 - Aplikacija
 - Heroku
 
+## Nedelja 3
+- Upload fajlova
+- Slanje mailova
+- Scraping
+- Testiranje softvera
+- AsyncJS
