@@ -35,3 +35,7 @@
 ## Nedelja 5
 - REST API
 - Autentifikacija
+
+## Nedelja 6
+- MySQL
+- Redis
